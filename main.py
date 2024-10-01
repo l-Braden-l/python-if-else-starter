@@ -26,5 +26,17 @@ if len(name) <= 5:
 else:
     print('You have a long name')
 #task 4 
-
+vowels = ['a','e','i','o','u']
+letter = input('Please enter a letter of the alphabet:\n').lower()
+if letter in vowels:
+    print('your letter is a vowel')
+else:
+    print('your letter is a consonant')
 #task 5 
+number_2 = float(input('enter a number again:\n'))
+number_1 = float(input('enter a number:\n'))
+
+if number_1 % number_2 == 0:
+    print('the first number is divisible by the second number!')
+else:
+    print('the first number is not divisible by the second number')
