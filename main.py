@@ -5,20 +5,20 @@
 
 
 #task 1 
-#i read it
+#i read it today!
 #task 2 
     #is green
 alien_color = 'green'
 if alien_color == 'green':
     print('You earned 5 points for shooting the alien')
 else:
-    print('You earned  points for shooting the alien')
+    print('You earned 10 points for shooting the alien')
     # is not green 
 alien_color = 'red'
 if alien_color == 'green':
     print('You earned 5 points for shooting the alien')
 else:
-    print('You earned  points for shooting the alien')
+    print('You earned 20 points for shooting the alien')
 #task 3 
 name = input('write your first name:\n')
 if len(name) <= 5:
